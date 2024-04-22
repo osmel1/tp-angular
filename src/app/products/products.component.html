@@ -1,0 +1,40 @@
+<div class="p-3 ">
+  <div class="card">
+    <div class="card-header fw-bold">
+      Products
+    </div>
+    <div class="card-body">
+        <div >
+          <label class="fw-bold me-3" >Keywoard</label>
+          <input class=" me-3" type="text" [(ngModel)]="this.keywoard" />
+          <button class="btn btn-success" (click)="searchProduct(this.keywoard)" >Search</button>
+        </div>
+      <table class="table">
+        <thead>
+          <tr>
+              <th>
+              Id
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+              Brand
+            </th>
+            <th>
+              Price
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+         <tr *ngFor="let product of products">
+           <td >{{product.id}}</td>
+           <td >{{product.name}}</td>
+           <td >{{product.brand}}</td>
+           <td >{{product.price}}</td>
+         </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+{"products" : [
+  {
+    "id": 1,
+    "name": "Toshiba Satellite C655D-S5084",
+    "brand": "Toshiba",
+    "price": 549.99
+  },
+  {
+    "id": 2,
+    "name": "HP Pavilion 15-cs3019nr",
+    "brand": "HP",
+    "price": 729.99
+  },
+  {
+    "id": 3,
+    "name": "Dell Inspiron 15 3000",
+    "brand": "Dell",
+    "price": 649.99
+  },
+  {
+    "id": 4,
+    "name": "Apple MacBook Air (2020)",
+    "brand": "Apple",
+    "price": 999.00
+  },
+  {
+    "id": 5,
+    "name": "Asus VivoBook 15",
+    "brand": "Asus",
+    "price": 579.99
+  },
+  {
+    "id": 6,
+    "name": "Lenovo Ideapad 3",
+    "brand": "Lenovo",
+    "price": 499.99
+  }
+]}
